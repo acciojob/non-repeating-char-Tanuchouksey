@@ -20,7 +20,7 @@ function firstNonRepeatedChar(str) {
     return ans;
 console.log(firstNonRepeatedChar('aabbcdd')); // Output: 'c'
 console.log(firstNonRepeatedChar('aabbcc'));  // Output: null
-This function first creates a frequency map to count the occurrences of each character in the string, and then it iterates through the string to find the first character with a frequency of 1. If no such character is found, it returns null.
+
 
 
 
