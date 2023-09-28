@@ -12,6 +12,10 @@ function firstNonRepeatedChar(str) {
 		{
 			ans.splice(0,-1)
 		}
+		else 
+		{
+			return ans;
+		}
 	}
 	
 }
