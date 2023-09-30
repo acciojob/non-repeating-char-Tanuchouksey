@@ -1,6 +1,7 @@
 function firstNonRepeatedChar(str) {
  let count={};    
     for(let i=0;i<str.length;i++){
+		
         if(count[str.charAt(i)]==undefined)
             count[str.charAt(i)]=1;
         else
@@ -17,9 +18,10 @@ function firstNonRepeatedChar(str) {
             break;
         }
     }
-    return ans;}
-console.input =prompt("Enter a string"); 
-alert(firstNonRepeatedChar(input));  // 
+    return ans;
+}
+console.input = prompt("Enter a string"); 
+alert(firstNonRepeatedChar(input));  
 
 
 
