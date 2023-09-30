@@ -18,8 +18,8 @@ function firstNonRepeatedChar(str) {
         }
     }
     return ans;
-console.log(firstNonRepeatedChar('aabbcdd')); // Output: 'c'
-console.log(firstNonRepeatedChar('aabbcc'));  // Output: null
+console.input =prompt("Enter a string"); 
+alert(firstNonRepeatedChar('input'));  // 
 
 
 
