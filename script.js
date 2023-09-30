@@ -17,7 +17,7 @@ function firstNonRepeatedChar(str) {
             break;
         }
     }
-    return ans;
+    return ans;}
 console.input =prompt("Enter a string"); 
 alert(firstNonRepeatedChar('input'));  // 
 
