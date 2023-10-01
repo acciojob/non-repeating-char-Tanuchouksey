@@ -19,12 +19,11 @@ function firstNonRepeatedChar(str) {
         }
     }
     return ans;
-}
+
 console.input = prompt("Enter a string"); 
 alert(firstNonRepeatedChar(input));  
 
-
-
+}
 
 
 
